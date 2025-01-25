@@ -1,0 +1,267 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+background-color: rgb(47 58 63);
+}
+
+/*navebar*/
+
+.navebar{width: 90%;
+background:#747b7e;
+display: flex;
+align-content: space-around;
+flex-wrap: wrap;
+border-radius: 40px;
+box-shadow: 0px 7px 20px 0px white;
+overflow: hidden;
+transition: all .2s ;
+margin: auto;
+position: fixed;
+top: 30px;
+left: 0;
+right: 0;}
+
+/*dark mode or light mode*/
+
+.dark-or-light{width: 30px;
+margin-top: auto;
+margin-bottom: auto;
+display: inline-block;
+height: 30px;
+border-radius: 12px;}
+
+#dark{
+display: none;}
+
+.dark-or-light img{
+transition: all .1s ;}
+
+.dark-or-light:hover img{
+transform: scale(1.2);}
+
+/*icon*/
+.icon{
+margin: auto;}
+
+.icon ul {
+list-style: none;
+padding: 0;
+margin: 0;}
+
+.icon ul li{
+display: inline-block;
+font-size: 20px;
+margin-left: 5px;
+margin-right: 5px;
+transition: all .2s ;}
+
+.icon ul li a {
+color: white;
+text-decoration: none;}
+
+.icon ul li:hover{
+color: rgba(255, 255, 255, 0.274);
+border: rgba(10, 10, 10, 0.548) 2px dashed;
+border-radius:20px ;
+background-color: rgba(0, 0, 0, 0.185);
+padding: 7px;}
+
+/*search*/
+
+.search{
+float: right;
+display: inline-flex;
+align-content: center;
+flex-wrap: wrap;
+border-radius: 30px;
+padding: 10px;}
+
+.search input{
+border:none;
+color:white;
+background-color: #00000062;
+border-radius: 13px;
+padding: 3px;
+font-size: 13px;
+width: 150px;}
+
+/*mobile*/
+.mobile{
+display: none;
+height: 30px;
+margin-top: auto;
+margin-bottom: auto;}
+
+.mobile div{
+width: 30px;
+height: 8px;
+margin-top: 2px;
+background-color: white;
+border-radius: 20px;}
+
+
+/*list for mobil*/
+
+.list-mobile{
+overflow: hidden;
+display: contents;
+background-color:#0000008a;
+width: 0px;
+height: 0px;
+position: fixed;
+top: 95px;
+padding: 5px;
+right: 10%;
+border-radius: 20px;
+outline: solid white 2px;
+transition: all 1s;
+}
+
+#im{
+position: absolute;
+right: 10px;
+top: 0;
+display: none;
+}
+
+.iconn{
+margin: auto;
+display: none;}
+
+.iconn ul {
+list-style: none;
+padding: 0;
+margin: 0;}
+
+.iconn ul li{
+display: block;
+font-size: 20px;
+transition: all .2s ;
+text-align: center;
+margin-top: 30px;}
+
+.iconn ul li a {
+color: white;
+text-decoration: none;}
+
+.iconn ul li:hover{
+color: rgba(255, 255, 255, 0.274);
+border: rgba(255, 255, 255, 0.548) 2px dashed;
+border-radius:20px ;
+background-color: rgba(255, 255, 255, 0.185);
+padding: 7px;}
+
+/*His face*/
+
+.His-face{
+background-image:url(../img/home/wallpapersden.com_call-of-duty-mobile-poster_3840x2160.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 600px;
+padding: 10px;
+outline: rgb(0, 0, 0) 4px solid;
+width: 100%;
+height: 600px;}
+
+.His-face div{
+margin: 10px;
+outline: solid rgb(0, 0, 0) 2px;
+width: 300px;
+border-radius: 10px;
+overflow: hidden;
+height: 175.75px;
+
+text-align: center;
+}
+/*gtav*/
+#gtav{
+background:url(../img/home/130506-2560x1600-desktop-hd-grand-theft-auto-5-wallpaper.jpg) ;
+background-size:100%;
+background-position: center;}
+/*fortnight*/
+#fort{
+background:url(../img/home/fortnite-chapter-4--11664.jpg),no-repeat;
+background-size:100%;
+background-position: center;}
+/*marvel rivels*/
+#marvel-rivels{
+background:url(../img/home/1372148.jpeg),no-repeat;
+background-size:100%;
+background-position: center;
+}
+
+
+
+.His-face div header{
+    margin-top: 25%;
+    display: none;
+}
+
+.His-face div a
+{
+text-decoration: solid black;
+color: rgb(0, 255, 0);
+margin-top: 25%;
+margin-bottom: 25%;
+}
+/*more-play*/
+.more-play
+{
+margin-top: 10%;
+}
+/*spiderrman2*/
+.lin{
+margin-top: 25%;}   
+.link-play{
+text-decoration: solid black;
+color: rgb(0, 255, 0);
+margin-top: 25%;
+margin-bottom: 25%;}
+    
+#spiderMan2
+{
+margin: 10px;
+outline: solid rgb(0, 0, 0) 2px;
+width: 300px;
+border-radius: 10px;
+overflow: hidden;
+height: 175.75px;
+text-align: center;
+background:url(../img/home/images.jpg),no-repeat;
+background-size:100%;
+background-position: center;
+    }
+/*foter*/
+
+.foter{
+background-color: #00000050;
+text-align: center;
+color: white;}
+
+.fix{
+margin-top: 15%;}
+
+
+
+
+@media (max-width:630.1px)
+{
+.fix{
+margin-top: 30%;}
+
+
+.His-face{
+width:100%;}
+
+.icon{
+display: none;}
+
+.mobile{
+display: block;
+margin-left: auto;}
+
+}
